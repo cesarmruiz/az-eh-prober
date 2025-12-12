@@ -56,7 +56,7 @@ while (true)
     stopwatch.Stop();
     result.ElapsedMilliseconds = (int)stopwatch.ElapsedMilliseconds;
     result.ClientId = clientId;
-    Console.WriteLine($"{result.ClientId}{result.Timestamp:yyyy-MM-dd HH:mm:ss.fff} - SendRandomEvent completed in {result.ElapsedMilliseconds}ms - Partition: {result.PartitionId}, Offset: {result.Offset}, Error: {result.ExceptionMessage}");
+    Console.WriteLine($"{result.ClientId} {result.Timestamp:yyyy-MM-dd HH:mm:ss.fff} - SendRandomEvent completed in {result.ElapsedMilliseconds}ms - Partition: {result.PartitionId}, Offset: {result.Offset}, Error: {result.ExceptionMessage}");
     
     results.Add(result);
     accumulatedElapsedMs += result.ElapsedMilliseconds;
