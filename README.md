@@ -53,9 +53,9 @@ The program logs:
 A sample run will look like:
 ```
 mb-prober % bin/Debug/net8.0/eh-prober $ehConnStr $telConnStr 
-94c48933-56e5-49bf-aa4b-ec7621fc82692025-12-13 05:02:20.221 - SendRandomEvent completed in 12206ms - Partition: 1, Offset: 2100620, Error: 
+94c48933-56e5-49bf-aa4b-ec7621fc8269 2025-12-13 05:02:20.221 - SendRandomEvent completed in 12206ms - Partition: 1, Offset: 2100620, Error: 
 Telemetry batch sent - Partition: [1], Offset: 164602, Events: 1
-94c48933-56e5-49bf-aa4b-ec7621fc82692025-12-13 05:02:21.117 - SendRandomEvent completed in 763ms - Partition: 1, Offset: 2100630, Error: 
-94c48933-56e5-49bf-aa4b-ec7621fc82692025-12-13 05:02:21.876 - SendRandomEvent completed in 758ms - Partition: 5, Offset: 2082968, Error: 
+94c48933-56e5-49bf-aa4b-ec7621fc8269 2025-12-13 05:02:21.117 - SendRandomEvent completed in 763ms - Partition: 1, Offset: 2100630, Error: 
+94c48933-56e5-49bf-aa4b-ec7621fc8269 2025-12-13 05:02:21.876 - SendRandomEvent completed in 758ms - Partition: 5, Offset: 2082968, Error: 
 Telemetry batch sent - Partition: [2], Offset: 163820, Events: 2
 ```
