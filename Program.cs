@@ -27,7 +27,8 @@ var dataConfig = new ProducerConfig
     SaslMechanism = SaslMechanism.Plain,
     SaslUsername = "$ConnectionString",
     SaslPassword = ehConnStr,
-    Acks = Acks.All
+    Acks = Acks.All,
+    RequestTimeoutMs = 5000
 };
 
 var telemetryConfig = new ProducerConfig
